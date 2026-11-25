@@ -52,13 +52,6 @@ Install the tools for the features you want, or change their commands in [`modul
    cp -- hyprland.lua "$config_dir/"
    ```
 
-4. Start a new Hyprland session after switching from a legacy `hyprland.conf`. If the session already uses `hyprland.lua` at the default path, you can reload it from inside Hyprland. Run `hyprctl configerrors` to check for parsing errors. [Hyprland configuration and reload](https://wiki.hypr.land/configuring/core/advanced-configuration/using-hyprctl/)
-
-   ```bash
-   hyprctl reload
-   hyprctl configerrors
-   ```
-
 ## Keybindings
 
 `Super` is usually the Windows key.
